@@ -9,3 +9,6 @@ wss.on("connection", function connection(ws) {
     ws.send("pong");
   });
 });
+
+console.log("hello from ws-backend");
+// for streak
